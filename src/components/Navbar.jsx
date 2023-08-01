@@ -5,8 +5,10 @@ const Navbar = () => {
     <>
        <div id="navbar">
         <Link to='/'>Home</Link>
-        <Link to='/blue'>Blue</Link>
-        <Link to='/red'>Red</Link>
+        <Link className='blue' to='/blue'>Blue</Link>
+        <Link className='red' to='/red'>Red</Link>
+        <Link className='green' to='/green'>Green</Link>
+        <Link className='purple' to='/purple'>Purple</Link>
        </div>
     </>
   )
